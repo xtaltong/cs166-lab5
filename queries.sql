@@ -12,7 +12,7 @@ WHERE P.pname = 'Fire Hydrant Cap' AND P.pid = C.pid AND C.sid = S.sid;
 
 SELECT S.sname
 FROM suppliers S, catalog C, parts P
-WHERE P.color = 'green' AND P.pid = C.pid AND S.sid = C.sid;
+WHERE P.color = 'Green' AND P.pid = C.pid AND S.sid = C.sid;
 
 SELECT S.sname, P.pname
 FROM suppliers S, catalog C, parts P
